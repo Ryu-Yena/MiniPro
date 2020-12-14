@@ -11,7 +11,9 @@ public class PhonBookUI {
 		System.out.println(" 1.리스트   2.등록   3.삭제   4.검색   5.종료");
 		System.out.println("---------------------------------");
 		System.out.println(">메뉴번호: ");
-		
 	}
+	
+	//리스트
+	
 
 }
