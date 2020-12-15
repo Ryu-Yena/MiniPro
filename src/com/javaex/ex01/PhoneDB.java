@@ -1,14 +1,14 @@
 package com.javaex.ex01;
 
-public class PBookInfo {
+public class PhoneDB {
 	
 	private String name;
 	private String ph;
 	private String company;
 	
-	public PBookInfo() {}
+	public PhoneDB() {}
 	
-	public PBookInfo(String name, String ph, String company) {
+	public PhoneDB(String name, String ph, String company) {
 		this.name = name;
 		this.ph = ph;
 		this.company = company;
@@ -37,7 +37,7 @@ public class PBookInfo {
 	
 	@Override
 	public String toString() {
-		return name + "," + ph + "," + company;
+		return "[" + name + "," + ph + "," + company + "]";
 	}
 	
 }
