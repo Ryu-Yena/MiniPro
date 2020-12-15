@@ -6,11 +6,12 @@ import java.util.*;
 
 public class PhoneBookUI {
 	
+	//스캐너
+	Scanner sc = new Scanner(System.in);
+	
 	//파일
 	File listDB = new File("PhoneDB");
 	
-	//파일 리더
-	File
 	
 	private ArrayList<PhoneDB> list = new ArrayList<PhoneDB>();
 	
@@ -23,7 +24,8 @@ public class PhoneBookUI {
 		System.out.println();
 		System.out.println(" 1.리스트   2.등록   3.삭제   4.검색   5.종료");
 		System.out.println("---------------------------------");
-		System.out.println(">메뉴번호: ");
+		System.out.print(">메뉴번호: ");
+		
 	}
 	
 	//리스트
@@ -37,7 +39,6 @@ public class PhoneBookUI {
 	//등록
 	
 	//스캐너
-	Scanner sc = new Scanner(System.in);
 		
 	public static void insert(String name, String ph, String company) {
 		System.out.println("<2.등록>");
