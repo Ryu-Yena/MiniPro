@@ -36,10 +36,7 @@ public class PhoneBookUI {
 		}
 	}
 	
-	//등록
-	
-	//스캐너
-		
+	//등록		
 	public static void insert(String name, String ph, String company) {
 		System.out.println("<2.등록>");
 		System.out.print(">이름: ");
@@ -55,6 +52,11 @@ public class PhoneBookUI {
 	}
 	
 	sc.close();
+	
+	//삭제
+	
+	//검색
+	
 	
 	//종료
 	public static void exit() {
