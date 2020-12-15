@@ -5,6 +5,9 @@ public class PBookInfo {
 	private String name;
 	private String ph;
 	private String company;
+	
+	public PBookInfo() {}
+	
 	public String getName() {
 		return name;
 	}

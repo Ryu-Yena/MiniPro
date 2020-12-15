@@ -1,6 +1,10 @@
 package com.javaex.ex01;
 
+import java.util.Scanner;
+
 public class PhonBookUI {
+	
+	
 
 	//메인화면
 	private static void StartMenu() {
@@ -14,6 +18,26 @@ public class PhonBookUI {
 	}
 	
 	//리스트
+	PBookInfo listA = new PBookInfo();
 	
-
+	//등록
+	
+	//스캐너
+	Scanner sc = new Scanner(System.in);
+		
+	public static void insert() {
+		System.out.println("<2.등록>");
+		System.out.print(">이름: ");
+		String name = sc.nextLine();
+		
+		System.out.println("");
+		System.out.print(">휴대전화: ");
+		String ph = sc.nextLine();
+		
+		System.out.println("");
+		System.out.print(">회사전화: ");
+		String company = sc.nextLine();
+	}
+	
+	sc.close();
 }
