@@ -1,9 +1,11 @@
 package com.javaex.ex01;
 
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+
 
 public class PhonBookUI {
-	
+	private ArrayList<String> PhoneDB = new ArrayList<String>;
 	
 
 	//메인화면
@@ -18,8 +20,12 @@ public class PhonBookUI {
 	}
 	
 	//리스트
-	PBookInfo listA = new PBookInfo();
-	
+	public void showList() {
+		System.out.println("<1.리스트>");
+	}
+	public PhonBookUI() {
+		// TODO Auto-generated constructor stub
+	}
 	//등록
 	
 	//스캐너

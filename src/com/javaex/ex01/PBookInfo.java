@@ -8,6 +8,13 @@ public class PBookInfo {
 	
 	public PBookInfo() {}
 	
+	public PBookInfo(String name, String ph, String company) {
+		this.name = name;
+		this.ph = ph;
+		this.company = company;
+	}
+	
+	
 	public String getName() {
 		return name;
 	}
@@ -27,5 +34,10 @@ public class PBookInfo {
 		this.company = company;
 	}
 	
+	
+	@Override
+	public String toString() {
+		return name + "," + ph + "," + company;
+	}
 	
 }
